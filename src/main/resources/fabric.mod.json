@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "everything",
+  "version": "${version}",
+  "name": "Everything",
+  "description": "A mod where I add whatever I see fit.",
+  "authors": [
+    "teaper_",
+    "@squareshover on discord"
+  ],
+  "contact": {
+    "repo": "https://github.com/teaperr/Everything"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/everything/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.teaper.everything.client.EverythingClient"
+    ],
+    "main": [
+      "net.teaper.everything.Everything"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
