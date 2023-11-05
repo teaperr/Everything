@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#L#",
+    " G "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "L": {
+      "item": "minecraft:lilac"
+    },
+    "G": {
+      "item": "minecraft:potion"
+    }
+  },
+  "result": {
+    "item": "everything:slop_juice",
+    "count": 1
+  }
+}
